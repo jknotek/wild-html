@@ -1,0 +1,23 @@
+{
+  "name": "wild-html",
+  "version": "1.0.0",
+  "description": "HTML with wild, unclosed tags. Saving you keystrokes — one unnecessary dependency at a time. 😉",
+  "main": "wild-html.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jknotek/wild-html.git"
+  },
+  "author": "Jacob Knotek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jknotek/wild-html/issues"
+  },
+  "homepage": "https://github.com/jknotek/wild-html#readme",
+  "devDependencies": {
+    "colors": "^1.2.1",
+    "diff": "^3.5.0"
+  }
+}
