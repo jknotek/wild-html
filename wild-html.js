@@ -30,7 +30,7 @@ class WildProcessor extends Transform {
 		super(options);
 
 		this.openTags = [];
-		this.tagLineRe = /^(\s*)\<\s*(\w+)/;
+		this.tagLineRe = /^(\s*)\<([\w-]+)/;
 		this.lineSplit = '';
 	}
 
