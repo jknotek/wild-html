@@ -68,3 +68,22 @@ fs.createReadStream('./index.whtml')
 	.pipe(fs.createWriteStream('./index.html'));
 
 ```
+
+## Known Issues
+### Only works with tabs at the moment.
+
+### Doesn't see manually closed tags.
+
+```html
+<title>I closed this tag by myself!</title>
+```
+
+will be translated into
+
+```html
+<title>I closed this tag by myself!</title>
+</title>
+```
+
+## License
+**ISC** (see LICENSE file)
